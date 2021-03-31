@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="for_example_docker.Example_for_test" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-31T12:45:42" hostname="WIN-95R27CPAAG1" time="14.124">
+  <properties/>
+  <testcase name="Issue" classname="for_example_docker.Example_for_test" time="14.124"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[мар 31, 2021 3:45:42 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+мар 31, 2021 3:45:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
