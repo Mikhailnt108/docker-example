@@ -18,9 +18,18 @@ services:
     image: aerokube/selenoid-ui:latest-release
     network_mode: bridge
     links:
-      - selenoid
+    - selenoid
     ports:
-      - "8080:8080"
+    - "8080:8080"
     command: ["--selenoid-uri", "http://selenoid:4444"]
+  jenkins:
+    image: jenkins/jenkins:lts
+    volumes:
+      - ${PWD}/work/jenkins:/var/jenkins_home
+    ports:
+      - 8000:8080
+    network_mode: bridge
+
+
 
 
